@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*::selection {
+  background-color: $primary-color;
+  color: $white-color;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: $font-family;
+  line-height: 1;
+  color: $gray-color;
+}
+a,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style-type: none;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
